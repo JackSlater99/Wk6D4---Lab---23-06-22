@@ -1,0 +1,142 @@
+body {
+  font-family: Palatino;
+  background-color: dodgerblue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+#form-section form {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+#form-section #submit {
+  background-color: #e64e4e; 
+  color: white; 
+  font-size: 100%;
+  width : 100%;
+  padding: 10px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+#form-section #button:hover {
+  cursor: pointer;
+  background-color: lightblue;
+  color: black;
+}
+
+#form-section input[type = text] {
+  padding: 10px;
+  color: black; 
+  font-size: 100%;
+  width : 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: black 1px solid;
+}
+
+#form-section input[type = number] {
+  padding: 10px;
+  color: black; 
+  font-size: 100%;
+  width : 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: black 1px solid;
+}
+
+#form-section input[type = date] {
+  padding: 10px;
+  color: black; 
+  font-size: 100%;
+  width : 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: black 1px solid;
+}
+
+#form-section select {
+  padding: 10px;
+  color: black; 
+  font-size: 100%;
+  width : 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: black 1px solid;
+}
+
+#form-section {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 90%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+#delete {
+  display: flex;
+  justify-content: center;
+}
+
+#delete-all {
+  background-color: #e64e4e; 
+  color: white; 
+  font-size: 100%;
+  width : 86.5%;
+  padding: 10px;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+#list-heading {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+#reading-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-inline: 2rem;
+  list-style: none;
+  justify-content: center;
+}
+
+li {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 15rem;
+  height: 6rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 1rem;
+  margin-inline: 2rem;
+}
